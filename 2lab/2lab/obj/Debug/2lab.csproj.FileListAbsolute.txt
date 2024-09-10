@@ -1,0 +1,10 @@
+C:\Users\bayan\source\repos\security_info\2lab\2lab\bin\Debug\2lab.exe.config
+C:\Users\bayan\source\repos\security_info\2lab\2lab\bin\Debug\2lab.exe
+C:\Users\bayan\source\repos\security_info\2lab\2lab\bin\Debug\2lab.pdb
+C:\Users\bayan\source\repos\security_info\2lab\2lab\obj\Debug\2lab.csproj.AssemblyReference.cache
+C:\Users\bayan\source\repos\security_info\2lab\2lab\obj\Debug\_2lab.Form1.resources
+C:\Users\bayan\source\repos\security_info\2lab\2lab\obj\Debug\_2lab.Properties.Resources.resources
+C:\Users\bayan\source\repos\security_info\2lab\2lab\obj\Debug\2lab.csproj.GenerateResource.cache
+C:\Users\bayan\source\repos\security_info\2lab\2lab\obj\Debug\2lab.csproj.CoreCompileInputs.cache
+C:\Users\bayan\source\repos\security_info\2lab\2lab\obj\Debug\2lab.exe
+C:\Users\bayan\source\repos\security_info\2lab\2lab\obj\Debug\2lab.pdb

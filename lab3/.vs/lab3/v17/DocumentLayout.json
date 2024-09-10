@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bayan\\source\\repos\\security_info\\lab3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD991CD-E168-44AC-B662-D00C9C05AAB9}|lab3\\lab3.csproj|c:\\users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\elgamal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD991CD-E168-44AC-B662-D00C9C05AAB9}|lab3\\lab3.csproj|solutionrelative:lab3\\elgamal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD991CD-E168-44AC-B662-D00C9C05AAB9}|lab3\\lab3.csproj|c:\\users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FCD991CD-E168-44AC-B662-D00C9C05AAB9}|lab3\\lab3.csproj|solutionrelative:lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FCD991CD-E168-44AC-B662-D00C9C05AAB9}|lab3\\lab3.csproj|c:\\users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FCD991CD-E168-44AC-B662-D00C9C05AAB9}|lab3\\lab3.csproj|solutionrelative:lab3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ElGamal.cs",
+              "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\ElGamal.cs",
+              "RelativeDocumentMoniker": "lab3\\ElGamal.cs",
+              "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\ElGamal.cs",
+              "RelativeToolTip": "lab3\\ElGamal.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwBQAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:18:55.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\Form1.cs",
+              "RelativeDocumentMoniker": "lab3\\Form1.cs",
+              "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\Form1.cs",
+              "RelativeToolTip": "lab3\\Form1.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAhwBoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:10:11.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\Form1.cs",
+              "RelativeDocumentMoniker": "lab3\\Form1.cs",
+              "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\lab3\\lab3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "lab3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T07:04:26.797Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
