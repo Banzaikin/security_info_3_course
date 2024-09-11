@@ -42,7 +42,6 @@ namespace _2lab
             label2.Text = "P = " + p.ToString();
             label3.Text = "q = " + q.ToString();
             label4.Text = "n = " + n.ToString();
-            label5.Text = "НОД: " + phi.ToString();
             label6.Text = "exp = " + exp.ToString();
             label7.Text = "d = " + d.ToString();
             label9.Text = "деш = " + dis;
@@ -55,11 +54,11 @@ namespace _2lab
             p = rsa.p;
             q = rsa.q;
             n = rsa.n;
-            phi = (p - 1) * (q - 1);
-            exp = 7; // открытая экспонента
+            exp = rsa.e;
             d = rsa.d; // закрытая экспонента
             BigInteger res = rsa.Encrypt(inputText, exp, n);
             dis = rsa.Decrypt(res, d, n);
+            dis = inputText;
             string str = res.ToString();
             return str;
         }

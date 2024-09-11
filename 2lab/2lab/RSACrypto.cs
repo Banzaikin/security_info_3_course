@@ -31,7 +31,12 @@ namespace _2lab
             n = p * q;
             phi = (p - 1) * (q - 1);
 
-            e = 7; // открытая экспонента
+            //Выбираeм такое е, что е < phi(n) и взаимно простое с phi.
+            
+            do
+            {
+                e = GeneratePrimeE(12, p, q);
+            } while (e <= n && GCD(e, phi) != 1);
             d = ModInverse(e, phi); // закрытая экспонента
         }
 
@@ -44,6 +49,16 @@ namespace _2lab
             {
                 n = rnd.Next((int)Math.Pow(2, N), (int)Math.Pow(2, N + 1));
             } while (!IsPrime(n) || n == num);
+            return n;
+        }
+        static int GeneratePrimeE(int N, int num1, int num2)
+        {
+            Random rnd = new Random();
+            int n;
+            do
+            {
+                n = rnd.Next((int)Math.Pow(2, N), (int)Math.Pow(2, N + 1));
+            } while (!IsPrime(n) || n == num1 || n == num2);
             return n;
         }
 
@@ -72,6 +87,17 @@ namespace _2lab
             }
 
             return true;
+        }
+        //НОД между e и phi: (p-1)(q-1)
+        private static BigInteger GCD(BigInteger a, BigInteger b)
+        {
+            while (b != 0)
+            {
+                var temp = b;
+                b = a % b;
+                a = temp;
+            }
+            return a;
         }
 
         // Возведение числа в степень по модулю
