@@ -125,6 +125,8 @@ namespace _2lab
         // Нахождение обратного элемента
         static BigInteger ModInverse(BigInteger a, BigInteger m)
         {
+
+
             BigInteger m0 = m;
             BigInteger y = 0, x = 1;
 
