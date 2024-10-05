@@ -34,13 +34,6 @@ namespace laba5
             //encodedMessage = FlipBit(encodedMessage, 6);
             textBox4.Text = encodedMessage;   
         }
-        // Вспомогательная функция для инвертирования бита
-        private static string FlipBit(string text, int position)
-        {
-            char[] textArray = text.ToCharArray();
-            textArray[position] = textArray[position] == '0' ? '1' : '0';
-            return new string(textArray);
-        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -50,7 +43,6 @@ namespace laba5
             int position = cyclicCode.errorPosition;
             textBox3.Text = "Ошибка в позиции: " + position.ToString();
         }
-        //01100001000010
         private void button3_Click(object sender, EventArgs e)
         {
             encodedMessage = textBox4.Text;

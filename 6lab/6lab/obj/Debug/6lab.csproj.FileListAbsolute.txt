@@ -1,0 +1,10 @@
+C:\Users\bayan\source\repos\security_info\6lab\6lab\bin\Debug\6lab.exe.config
+C:\Users\bayan\source\repos\security_info\6lab\6lab\bin\Debug\6lab.exe
+C:\Users\bayan\source\repos\security_info\6lab\6lab\bin\Debug\6lab.pdb
+C:\Users\bayan\source\repos\security_info\6lab\6lab\obj\Debug\6lab.csproj.AssemblyReference.cache
+C:\Users\bayan\source\repos\security_info\6lab\6lab\obj\Debug\_6lab.Form1.resources
+C:\Users\bayan\source\repos\security_info\6lab\6lab\obj\Debug\_6lab.Properties.Resources.resources
+C:\Users\bayan\source\repos\security_info\6lab\6lab\obj\Debug\6lab.csproj.GenerateResource.cache
+C:\Users\bayan\source\repos\security_info\6lab\6lab\obj\Debug\6lab.csproj.CoreCompileInputs.cache
+C:\Users\bayan\source\repos\security_info\6lab\6lab\obj\Debug\6lab.exe
+C:\Users\bayan\source\repos\security_info\6lab\6lab\obj\Debug\6lab.pdb

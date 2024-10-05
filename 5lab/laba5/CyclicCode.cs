@@ -13,10 +13,13 @@ namespace laba5
         private const int CodewordBits = DataBits + GeneratorPolynomialDegree; // Количество бит в кодовом слове
         private readonly int[] _generatorPolynomial = { 1, 0, 1, 1, 0, 0, 1 }; // Порождающий полином - x^6 + x^3 + 1
         public int errorPosition;
-
+        private readonly string[] _syndromDecode = { "010011", "100101", "111110", "011111",
+                                                  "100011", "111101", "110010", "011001",
+                                                  "100000", "010000", "001000", "000100",
+                                                  "000010", "000001" };
         public string Encode(string message)
         {
-            byte[] messageBytes = System.Text.Encoding.ASCII.GetBytes(message);
+            byte[] messageBytes = Encoding.ASCII.GetBytes(message);
             string encodedMessage = "";
 
             foreach (byte b in messageBytes)
@@ -120,7 +123,7 @@ namespace laba5
             errorPosition = 0;
             for (int i = 0; i < syndromeArray.Length; i++)
             {
-                if (syndromeArray[i] == 1)
+                if (syndrome == _syndromDecode[i])
                 {
                     errorPosition = i + 1; // Индекс начинается с 0, а позиция ошибки с 1
                     break;
@@ -134,7 +137,8 @@ namespace laba5
         {
             // Инвертирование бита в кодовом слове
             char[] codewordArray = codeword.ToCharArray();
-            codewordArray[codeword.Length - position] = codewordArray[codeword.Length - position] == '0' ? '1' : '0';
+            codewordArray[position - 1] = codewordArray[position - 1] == '0' ? '1' : '0';
+            errorPosition = position;
             return new string(codewordArray);
         }
     }
