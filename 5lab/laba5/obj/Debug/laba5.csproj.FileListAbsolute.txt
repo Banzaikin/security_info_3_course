@@ -1,0 +1,10 @@
+C:\Users\bayan\source\repos\security_info\laba5\laba5\bin\Debug\laba5.exe.config
+C:\Users\bayan\source\repos\security_info\laba5\laba5\bin\Debug\laba5.exe
+C:\Users\bayan\source\repos\security_info\laba5\laba5\bin\Debug\laba5.pdb
+C:\Users\bayan\source\repos\security_info\laba5\laba5\obj\Debug\laba5.csproj.AssemblyReference.cache
+C:\Users\bayan\source\repos\security_info\laba5\laba5\obj\Debug\laba5.Form1.resources
+C:\Users\bayan\source\repos\security_info\laba5\laba5\obj\Debug\laba5.Properties.Resources.resources
+C:\Users\bayan\source\repos\security_info\laba5\laba5\obj\Debug\laba5.csproj.GenerateResource.cache
+C:\Users\bayan\source\repos\security_info\laba5\laba5\obj\Debug\laba5.csproj.CoreCompileInputs.cache
+C:\Users\bayan\source\repos\security_info\laba5\laba5\obj\Debug\laba5.exe
+C:\Users\bayan\source\repos\security_info\laba5\laba5\obj\Debug\laba5.pdb
