@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCBF243-C160-44DC-B2A0-FC8F962A165A}|7lab\\7lab.csproj|C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\passwordhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCBF243-C160-44DC-B2A0-FC8F962A165A}|7lab\\7lab.csproj|solutionrelative:7lab\\passwordhash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCBF243-C160-44DC-B2A0-FC8F962A165A}|7lab\\7lab.csproj|c:\\users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BFCBF243-C160-44DC-B2A0-FC8F962A165A}|7lab\\7lab.csproj|solutionrelative:7lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFCBF243-C160-44DC-B2A0-FC8F962A165A}|7lab\\7lab.csproj|C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFCBF243-C160-44DC-B2A0-FC8F962A165A}|7lab\\7lab.csproj|solutionrelative:7lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\Form1.cs",
+              "RelativeDocumentMoniker": "7lab\\Form1.cs",
+              "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\Form1.cs",
+              "RelativeToolTip": "7lab\\Form1.cs",
+              "ViewState": "AQIAAB8AAAAAAAAAAAAtwC0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T16:42:31.844Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PasswordHash.cs",
+              "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\PasswordHash.cs",
+              "RelativeDocumentMoniker": "7lab\\PasswordHash.cs",
+              "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\PasswordHash.cs",
+              "RelativeToolTip": "7lab\\PasswordHash.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowEUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T16:34:53.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\Form1.cs",
+              "RelativeDocumentMoniker": "7lab\\Form1.cs",
+              "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\7lab\\7lab\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "7lab\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-07T16:34:31.019Z",
+              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -38,7 +38,7 @@
             // buttonEncrypt
             // 
             this.buttonEncrypt.Location = new System.Drawing.Point(20, 114);
-            this.buttonEncrypt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonEncrypt.Margin = new System.Windows.Forms.Padding(4);
             this.buttonEncrypt.Name = "buttonEncrypt";
             this.buttonEncrypt.Size = new System.Drawing.Size(127, 28);
             this.buttonEncrypt.TabIndex = 1;
@@ -49,7 +49,7 @@
             // buttonDecipher
             // 
             this.buttonDecipher.Location = new System.Drawing.Point(292, 114);
-            this.buttonDecipher.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonDecipher.Margin = new System.Windows.Forms.Padding(4);
             this.buttonDecipher.Name = "buttonDecipher";
             this.buttonDecipher.Size = new System.Drawing.Size(149, 28);
             this.buttonDecipher.TabIndex = 2;
@@ -70,16 +70,16 @@
             // textBoxEncodeKeyWord
             // 
             this.textBoxEncodeKeyWord.Location = new System.Drawing.Point(20, 47);
-            this.textBoxEncodeKeyWord.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxEncodeKeyWord.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxEncodeKeyWord.Name = "textBoxEncodeKeyWord";
             this.textBoxEncodeKeyWord.Size = new System.Drawing.Size(148, 22);
             this.textBoxEncodeKeyWord.TabIndex = 4;
             // 
             // textBoxDecodeKeyWord
             // 
-            this.textBoxDecodeKeyWord.BackColor = System.Drawing.SystemColors.Control;
+            this.textBoxDecodeKeyWord.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.textBoxDecodeKeyWord.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBoxDecodeKeyWord.ForeColor = System.Drawing.SystemColors.Control;
+            this.textBoxDecodeKeyWord.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.textBoxDecodeKeyWord.Location = new System.Drawing.Point(292, 47);
             this.textBoxDecodeKeyWord.Margin = new System.Windows.Forms.Padding(4);
             this.textBoxDecodeKeyWord.Name = "textBoxDecodeKeyWord";
@@ -96,7 +96,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.buttonDecipher);
             this.Controls.Add(this.buttonEncrypt);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Алгоритм DES - vscode.ru";
             this.ResumeLayout(false);

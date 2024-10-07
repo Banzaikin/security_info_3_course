@@ -3,23 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\huffmancompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|solutionrelative:6lab\\huffmancompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\lzwcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|solutionrelative:6lab\\lzwcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|c:\\users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\twostepcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|solutionrelative:6lab\\twostepcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|c:\\users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\huffmancompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|solutionrelative:6lab\\huffmancompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|c:\\users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\lzwcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|solutionrelative:6lab\\lzwcompressor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|c:\\users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|solutionrelative:6lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|c:\\users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{003B70B4-09F8-4CA5-965F-03CEAF86E4E9}|6lab\\6lab.csproj|solutionrelative:6lab\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -30,43 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TwoStepCompressor.cs",
               "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\TwoStepCompressor.cs",
               "RelativeDocumentMoniker": "6lab\\TwoStepCompressor.cs",
               "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\TwoStepCompressor.cs",
               "RelativeToolTip": "6lab\\TwoStepCompressor.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAcwBwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T13:56:49.166Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HuffmanCompressor.cs",
               "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\HuffmanCompressor.cs",
               "RelativeDocumentMoniker": "6lab\\HuffmanCompressor.cs",
               "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\HuffmanCompressor.cs",
               "RelativeToolTip": "6lab\\HuffmanCompressor.cs",
-              "ViewState": "AQIAAGUAAAAAAAAAAAAwwGkAAAAqAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwGkAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T13:55:50.929Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "LZWCompressor.cs",
               "DocumentMoniker": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\LZWCompressor.cs",
               "RelativeDocumentMoniker": "6lab\\LZWCompressor.cs",
               "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\LZWCompressor.cs",
               "RelativeToolTip": "6lab\\LZWCompressor.cs",
-              "ViewState": "AQIAADMAAAAAAAAAAAAqwEUAAAA6AAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB4AAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-05T13:54:52.912Z",
               "EditorCaption": ""
@@ -81,8 +81,7 @@
               "RelativeToolTip": "6lab\\Form1.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAlwB8AAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T13:48:42.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T13:48:42.996Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "ToolTip": "C:\\Users\\bayan\\source\\repos\\security_info\\6lab\\6lab\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "RelativeToolTip": "6lab\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T13:48:33.569Z",
-              "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
+              "WhenOpened": "2024-10-05T13:48:33.569Z"
             }
           ]
         }

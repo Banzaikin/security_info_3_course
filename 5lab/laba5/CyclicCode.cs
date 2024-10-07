@@ -11,12 +11,14 @@ namespace laba5
         private const int GeneratorPolynomialDegree = 6; // Степень порождающего полинома
         private const int DataBits = 8; // Количество информационных бит в блоке
         private const int CodewordBits = DataBits + GeneratorPolynomialDegree; // Количество бит в кодовом слове
-        private readonly int[] _generatorPolynomial = { 1, 0, 1, 1, 0, 0, 1 }; // Порождающий полином - x^6 + x^3 + 1
+        private readonly int[] _generatorPolynomial = { 1, 0, 1, 1, 0, 0, 1 }; // Порождающий полином 
         public int errorPosition;
         private readonly string[] _syndromDecode = { "010011", "100101", "111110", "011111",
                                                   "100011", "111101", "110010", "011001",
                                                   "100000", "010000", "001000", "000100",
                                                   "000010", "000001" };
+        public bool nonError = true;
+        public int posErr = 0;
         public string Encode(string message)
         {
             byte[] messageBytes = Encoding.ASCII.GetBytes(message);
@@ -50,7 +52,7 @@ namespace laba5
                 string byteString = decodedMessage.Substring(i * 8, 8);
                 bytes[i] = Convert.ToByte(byteString, 2);
             }
-            return System.Text.Encoding.ASCII.GetString(bytes);
+            return Encoding.ASCII.GetString(bytes);
         }
 
         private string EncodeBlock(string dataBlock)
@@ -69,8 +71,13 @@ namespace laba5
             // Если синдром равен нулю, ошибки нет
             if (syndrome == new string('0', GeneratorPolynomialDegree))
             {
+                if (nonError)
+                {
+                    posErr += 14;
+                }
                 return codeword.Substring(0, DataBits);
             }
+            nonError = false;
             // Определение положения ошибки
             errorPosition = CalculateErrorPosition(syndrome);
 
@@ -79,7 +86,7 @@ namespace laba5
             {
                 codeword = FlipBit(codeword, errorPosition);
             }
-
+            posErr += errorPosition;
             return codeword.Substring(0, DataBits);
         }
 
@@ -112,16 +119,16 @@ namespace laba5
         private int CalculateErrorPosition(string syndrome)
         {
             // Преобразование синдрома в двоичный массив
-            int[] syndromeArray = new int[syndrome.Length];
+            /*int[] syndromeArray = new int[syndrome.Length];
             for (int i = 0; i < syndrome.Length; i++)
             {
                 syndromeArray[i] = int.Parse(syndrome[i].ToString());
-            }
+            }*/
 
             // Определение позиции ошибки
             // (Ошибка находится в позиции, соответствующей индексу 1 в синдроме)
             errorPosition = 0;
-            for (int i = 0; i < syndromeArray.Length; i++)
+            for (int i = 0; i < _generatorPolynomial.Length; i++)
             {
                 if (syndrome == _syndromDecode[i])
                 {
@@ -138,7 +145,6 @@ namespace laba5
             // Инвертирование бита в кодовом слове
             char[] codewordArray = codeword.ToCharArray();
             codewordArray[position - 1] = codewordArray[position - 1] == '0' ? '1' : '0';
-            errorPosition = position;
             return new string(codewordArray);
         }
     }

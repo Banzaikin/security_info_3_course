@@ -1,0 +1,10 @@
+C:\Users\bayan\source\repos\security_info\7lab\7lab\bin\Debug\7lab.exe.config
+C:\Users\bayan\source\repos\security_info\7lab\7lab\bin\Debug\7lab.exe
+C:\Users\bayan\source\repos\security_info\7lab\7lab\bin\Debug\7lab.pdb
+C:\Users\bayan\source\repos\security_info\7lab\7lab\obj\Debug\7lab.csproj.AssemblyReference.cache
+C:\Users\bayan\source\repos\security_info\7lab\7lab\obj\Debug\_7lab.Form1.resources
+C:\Users\bayan\source\repos\security_info\7lab\7lab\obj\Debug\_7lab.Properties.Resources.resources
+C:\Users\bayan\source\repos\security_info\7lab\7lab\obj\Debug\7lab.csproj.GenerateResource.cache
+C:\Users\bayan\source\repos\security_info\7lab\7lab\obj\Debug\7lab.csproj.CoreCompileInputs.cache
+C:\Users\bayan\source\repos\security_info\7lab\7lab\obj\Debug\7lab.exe
+C:\Users\bayan\source\repos\security_info\7lab\7lab\obj\Debug\7lab.pdb

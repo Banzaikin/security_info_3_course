@@ -40,12 +40,14 @@ namespace laba5
             // Декодирование сообщения с исправлением ошибки
             string decodedMessage = cyclicCode.Decode(encodedMessage);
             textBox2.Text = decodedMessage;
-            int position = cyclicCode.errorPosition;
+            int position = cyclicCode.posErr;
             textBox3.Text = "Ошибка в позиции: " + position.ToString();
         }
         private void button3_Click(object sender, EventArgs e)
         {
             encodedMessage = textBox4.Text;
+            cyclicCode.posErr = 0;
+            cyclicCode.nonError = true;
         }
     }
 }
