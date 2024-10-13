@@ -1,0 +1,10 @@
+C:\Users\bayan\source\repos\security_info\lab8\lab8\bin\Debug\lab8.exe.config
+C:\Users\bayan\source\repos\security_info\lab8\lab8\bin\Debug\lab8.exe
+C:\Users\bayan\source\repos\security_info\lab8\lab8\bin\Debug\lab8.pdb
+C:\Users\bayan\source\repos\security_info\lab8\lab8\obj\Debug\lab8.csproj.AssemblyReference.cache
+C:\Users\bayan\source\repos\security_info\lab8\lab8\obj\Debug\lab8.Form1.resources
+C:\Users\bayan\source\repos\security_info\lab8\lab8\obj\Debug\lab8.Properties.Resources.resources
+C:\Users\bayan\source\repos\security_info\lab8\lab8\obj\Debug\lab8.csproj.GenerateResource.cache
+C:\Users\bayan\source\repos\security_info\lab8\lab8\obj\Debug\lab8.csproj.CoreCompileInputs.cache
+C:\Users\bayan\source\repos\security_info\lab8\lab8\obj\Debug\lab8.exe
+C:\Users\bayan\source\repos\security_info\lab8\lab8\obj\Debug\lab8.pdb
